@@ -1,0 +1,29 @@
+cargo:rerun-if-env-changed=GMP_MPFR_SYS_CACHE
+$ mkdir -p "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_extended_key_value_attributes"
+$ cd "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_extended_key_value_attributes"
+$ printf '%s' "// try_ext"... > "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_extended_key_value_attributes/try_extended_key_value_attributes.rs"
+$ "rustc" "try_extended_key_value_attributes.rs" "--emit=dep-info,metadata" >& /dev/null
+$ rm -r "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_extended_key_value_attributes"
+$ mkdir -p "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_unsafe_in_unsafe"
+$ cd "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_unsafe_in_unsafe"
+$ printf '%s' "// try_uns"... > "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_unsafe_in_unsafe/try_unsafe_in_unsafe.rs"
+$ "rustc" "try_unsafe_in_unsafe.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=unsafe_in_unsafe
+$ rm -r "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/try_unsafe_in_unsafe"
+$ mkdir -p "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/lib"
+$ mkdir -p "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/include"
+$ cp "/home/hiroaki/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.7/libmpc.a" "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/lib/libmpc.a"
+$ cp "/home/hiroaki/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.7/mpc.h" "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/include/mpc.h"
+$ cp "/home/hiroaki/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.7/libmpfr.a" "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/lib/libmpfr.a"
+$ cp "/home/hiroaki/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.7/mpfr.h" "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/include/mpfr.h"
+$ cp "/home/hiroaki/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.7/libgmp.a" "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/lib/libgmp.a"
+cargo:limb_bits=64
+$ cp "/home/hiroaki/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.7/gmp.h" "/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/include/gmp.h"
+cargo:limb_bits=64
+cargo:out_dir=/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out
+cargo:lib_dir=/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/lib
+cargo:include_dir=/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/include
+cargo:rustc-link-search=native=/home/hiroaki/pi1M/target/debug/build/gmp-mpfr-sys-9425a0f91999394a/out/lib
+cargo:rustc-link-lib=static=mpc
+cargo:rustc-link-lib=static=mpfr
+cargo:rustc-link-lib=static=gmp
