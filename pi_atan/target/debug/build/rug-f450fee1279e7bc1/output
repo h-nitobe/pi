@@ -1,7 +1,0 @@
-cargo:rustc-cfg=gmp_limb_bits_64
-$ mkdir -p "/home/hiroaki/pi1M/target/debug/build/rug-f450fee1279e7bc1/out/try_unsafe_in_unsafe"
-$ cd "/home/hiroaki/pi1M/target/debug/build/rug-f450fee1279e7bc1/out/try_unsafe_in_unsafe"
-$ printf '%s' "// try_uns"... > "/home/hiroaki/pi1M/target/debug/build/rug-f450fee1279e7bc1/out/try_unsafe_in_unsafe/try_unsafe_in_unsafe.rs"
-$ "rustc" "try_unsafe_in_unsafe.rs" "--emit=dep-info,metadata" >& /dev/null
-cargo:rustc-cfg=unsafe_in_unsafe
-$ rm -r "/home/hiroaki/pi1M/target/debug/build/rug-f450fee1279e7bc1/out/try_unsafe_in_unsafe"
