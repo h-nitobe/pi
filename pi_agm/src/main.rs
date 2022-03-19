@@ -7,12 +7,12 @@
 ///
 
 /// rug: C言語 GMP 多倍長ライブラリの rust ラッパ
-use rug::{ Float };
+use rug::Float;
 
 /// 1/log(2)=3.3219280948873623478703194294894
 /// の一億倍
-const PREC: u32 = 332192809 + 33;
-//const PREC: u32 = 332 + 33;
+//const PREC: u32 = 332192809 + 33;
+const PREC: u32 = 332 + 33;
 const MAX:  u32 = 28;
 
 fn main() {
@@ -21,7 +21,7 @@ fn main() {
     let mut t0 = Float::with_val(PREC, 0.25);
     let mut p  = Float::with_val(PREC, 1.0);
 
-    for _i in 1..MAX {
+    for _i in 1..=MAX {
         let a1 = Float::with_val(PREC, &a0 + &b) / 2;
         b  = Float::with_val(PREC, &a0 * &b).sqrt();
         let mut t1  = Float::with_val(PREC, &a0 - &a1);
