@@ -22,6 +22,5 @@ fn main() {
 
     println!("{}", Float::with_val(PREC, Constant::Pi));
 
-    let stop = clock.now();
-    eprintln!("{:?}", stop.duration_since(start));
+    eprintln!("{:?}", clock.now().duration_since(start));
 }

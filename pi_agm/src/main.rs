@@ -19,6 +19,7 @@ const MAX:  u32 = 28;
 fn main() {
     let clock = Clock::new();
     let start = clock.now();
+    let mut prev;
 
     let mut a0 = Float::with_val(PREC, 1.0);
     let mut b  = Float::with_val(PREC, 2.0).recip_sqrt();
@@ -27,7 +28,7 @@ fn main() {
 
     let mut now = clock.now();
     eprintln!("init:  {:?}", now.duration_since(start));
-    let mut lap = now;
+    prev = now;
 
     for _i in 1..=MAX {
         let a1 = Float::with_val(PREC, &a0 + &b) / 2;
@@ -40,21 +41,20 @@ fn main() {
 
     }
     now = clock.now();
-    eprintln!("loop:  {:?}", now.duration_since(lap));
-    lap = now;
+    eprintln!("loop:  {:?}", now.duration_since(prev));
+    prev = now;
 
     a0 = Float::with_val(PREC, &a0 + &b);
     a0 = Float::with_val(PREC, &a0 * &a0);
     t0 = Float::with_val(PREC, &t0) * 4;
     a0 = Float::with_val(PREC, &a0 / &t0);
-
     now = clock.now();
-    eprintln!("end:   {:?}", now.duration_since(lap));
-    lap = now;
+    eprintln!("end:   {:?}", now.duration_since(prev));
+    prev = now;
 
     println!("{}", a0);
     now = clock.now();
-    eprintln!("print: {:?}", now.duration_since(lap));
+    eprintln!("print: {:?}", now.duration_since(prev));
     eprintln!("total: {:?}", now.duration_since(start));
 
 }
