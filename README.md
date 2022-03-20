@@ -5,3 +5,5 @@
 3. 算術幾何平均 (AGM ; Arithmetic and Geometric Mean) ・・ [pi_agm](pi_agm)
 4. Machin's formula  ・・・・・・・・・・・・・・・・・・・ [machin](machin)
 5. Chudnovsky Binary Splitting Method ・・・・・・・・・・ [yapatta](yapatta)
+  [Rustを使って円周率1億桁計算したお話](https://zenn.dev/uu/articles/48e2d4098b6aca)
+  [xxx](https://qiita.com/peria/items/c02ef9fc18fb0362fb89)
