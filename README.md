@@ -26,7 +26,9 @@
 |NanoPi NEO|Allwinner H3<br>(Quad-core Cortex-A7)<br>1.2GHz|Ubuntu 16.04.7 LTS|5.4.0|6.2.1|21.383s|
 |Raspberry Pi 2<br>Model B Rev 1.1|ARM Cortex-A7<br>900MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|21.798s|
 |DevTerm R-01|RISC-V 64bit Single-core<br>1.0GHz<br>RV64IMAFDCVU|Ubuntu 22.04.1 LTS|11.3.0|6.2.1|32.788s|
-|Raspberry Pi 0<br>Model B Rev 2|ARM1176JZF-S<br>1GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|33.960s|
+|Raspberry Pi Zero<br>Model B Rev 2|ARM1176JZF-S<br>1GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|33.960s|
+|Raspberry Pi<br>Model B Rev 2|ARM1176JZF-S<br>700MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|48.573s|
+
 
 
 
