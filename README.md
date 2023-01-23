@@ -17,7 +17,7 @@
 
 6. Million Digit Pi Benchmark
 
-すずきひろのぶ氏の円周率１００万桁ソースコードを用いて各世代RaspberryPiの速度比較を行う。
+すずきひろのぶ氏の円周率１００万桁ソースコード(suzuki)を用いて各世代RaspberryPiの速度比較を行う。
 
 |Hardware|Central<br>Processing<br>Unit|Operating<br>System|gcc|gmp|time|
 |---|---|---|---|---|---:|
