@@ -17,4 +17,5 @@
 6. Million Digit Pi Benchmark
 すずきひろのぶ氏の円周率１００万桁ソースコードを用いて各世代RaspberryPiの速度比較を行う。
 |Raspberry Pi 4<br>Model B Rev 1.2|ARM Cortex-A72<br>1.5GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.875s|
-![image](https://user-images.githubusercontent.com/37722208/213948763-13774806-6175-435e-82d3-f595407d7db7.png)
+---|---|---|---|---|---
+| |
