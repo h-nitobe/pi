@@ -29,7 +29,7 @@
 |Raspberry Pi Zero<br>Model B Rev 2<br>(2018)|ARM1176JZF-S<br>1GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|33.960s|
 |Raspberry Pi<br>Model B Rev 2<br>(2012)|ARM1176JZF-S<br>700MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|48.573s|
 
-
+![raspberry-pi.jpg](raspberry-pi.jpg)
 
 
 
