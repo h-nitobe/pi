@@ -31,6 +31,7 @@
 
 左上から raspberry pi (初代)、raspberry pi 2。中段左から raspberry pi 3、raspberry pi 4。下段左から raspberry pi Zero、NanoPi NEO。
 ![raspberry-pi.jpg](raspberry-pi.jpg)
+
 ![devterm-r01.jpg](devterm-r01.jpg)
 
 
