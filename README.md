@@ -4,12 +4,12 @@
 2. mpfr arctan(1)  ・・・・・・・・・・・・・・・・・・・・ [pi_atan](pi_atan)
 3. 算術幾何平均 (AGM ; Arithmetic and Geometric Mean) ・・ [pi_agm](pi_agm)
 
-    [2003 Hironobu SUZUKI]　(リンク切れ)　　[suzuki](suzuki)
+    [2003 Hironobu SUZUKI]　(リンク切れ)(2003)　　[suzuki](suzuki)
 
 4. Machin's formula  ・・・・・・・・・・・・・・・・・・・ [machin](machin)
 5. Chudnovsky Binary Splitting Method ・・・・・・・・・・
 
-    [円周率を1億桁計算しました！ － その試行錯誤の詳しい経緯と結果 －](https://itchyny.hatenablog.com/entry/20120304/1330870932)　　[itchyny](itchyny)
+    [円周率を1億桁計算しました！ － その試行錯誤の詳しい経緯と結果 －](https://itchyny.hatenablog.com/entry/20120304/1330870932)(2014)　　[itchyny](itchyny)
     
     [Rustを使って円周率1億桁計算したお話](https://zenn.dev/uu/articles/48e2d4098b6aca)　　[yapatta](yapatta)
     
