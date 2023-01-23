@@ -20,4 +20,4 @@
 |Hardware|Central<br>Processing<br>Unit|Operating<br>System|gcc|gmp|time|
 |---|---|---|---|---|---:|
 |Raspberry Pi 4<br>Model B Rev 1.2|ARM Cortex-A72<br>1.5GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.875s|
-![image](https://user-images.githubusercontent.com/37722208/213949115-d0d383fa-f6b8-45c6-a640-4976076f6ad1.png)
+
