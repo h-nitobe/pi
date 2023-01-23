@@ -21,13 +21,13 @@
 
 |Hardware|Central<br>Processing<br>Unit|Operating<br>System|gcc|gmp|time|
 |---|---|---|---|---|---:|
-|Raspberry Pi 4<br>Model B Rev 1.2|ARM Cortex-A72<br>1.5GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.875s|
-|Raspberry Pi 3<br>Model B Rev 1.2|ARM Cortex-A53<br>1.2GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|13.826s|
+|Raspberry Pi 4<br>Model B Rev 1.2<br>(2019)|ARM Cortex-A72<br>1.5GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.875s|
+|Raspberry Pi 3<br>Model B Rev 1.2<br>(2016)|ARM Cortex-A53<br>1.2GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|13.826s|
 |NanoPi NEO|Allwinner H3<br>(Quad-core Cortex-A7)<br>1.2GHz|Ubuntu 16.04.7 LTS|5.4.0|6.2.1|21.383s|
-|Raspberry Pi 2<br>Model B Rev 1.1|ARM Cortex-A7<br>900MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|21.798s|
+|Raspberry Pi 2<br>Model B Rev 1.1<br>(2015)|ARM Cortex-A7<br>900MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|21.798s|
 |DevTerm R-01|RISC-V 64bit Single-core<br>1.0GHz<br>RV64IMAFDCVU|Ubuntu 22.04.1 LTS|11.3.0|6.2.1|32.788s|
 |Raspberry Pi Zero<br>Model B Rev 2|ARM1176JZF-S<br>1GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|33.960s|
-|Raspberry Pi<br>Model B Rev 2|ARM1176JZF-S<br>700MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|48.573s|
+|Raspberry Pi<br>Model B Rev 2<br>(2012)|ARM1176JZF-S<br>700MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|48.573s|
 
 
 
