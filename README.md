@@ -21,8 +21,8 @@
 
 |Hardware|Central<br>Processing<br>Unit|Operating<br>System|gcc|gmp|time|
 |---|---|---|---|---|---:|
-|ThinkPad P71<br>(2019) |Core i7-7820HQ<br>2.9GHz|Debian(stretch)<br>/WSL/Windows10|6.3.0|6.2.1|  0.993s|
-|ThinkPad E14-i3<br>(2022) |Core i3-1115G4@<br>3.00GHz|Debian(bullseye)<br>/WSL/Windows11|10.2.1|6.2.1|  2.135s|
+|ThinkPad P71<br>(2018) |Core i7-7820HQ<br>2.9GHz|Debian(stretch)<br>/WSL/Windows10|6.3.0|6.2.1|  0.993s|
+|ThinkPad E14-i3<br>(2021) |Core i3-1115G4@<br>3.00GHz|Debian(bullseye)<br>/WSL/Windows11|10.2.1|6.2.1|  2.135s|
 |Raspberry Pi 400<br>(2021)|ARM Cortex-A72<br>1.8GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.054s|
 |Raspberry Pi 4<br>Model B Rev 1.2<br>(2019)|ARM Cortex-A72<br>1.5GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.875s|
 |Raspberry Pi 3<br>Model B Rev 1.2<br>(2016)|ARM Cortex-A53<br>1.2GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|13.826s|
