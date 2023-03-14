@@ -7,7 +7,7 @@
     [2003 Hironobu SUZUKI]　(リンク切れ)(2003)　[suzuki](suzuki)
  
 4. Machin's formula  ・・・・・・・・・・・・・・・・・・・ [machin](machin)
-5. strange π approximation ・・・・・・・・・・・・・・・・ [pi_ln][pi_ln]
+5. strange π approximation ・・・・・・・・・・・・・・・・ [pi_ln](pi_ln)
 6. Chudnovsky Binary Splitting Method ・・・・・・・・・・
 
     [円周率を1億桁計算しました！ － その試行錯誤の詳しい経緯と結果 －](https://itchyny.hatenablog.com/entry/20120304/1330870932)(2014)　[itchyny](itchyny)
