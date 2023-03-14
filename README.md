@@ -5,9 +5,10 @@
 3. 算術幾何平均 (AGM ; Arithmetic and Geometric Mean) ・・ [pi_agm](pi_agm)
 
     [2003 Hironobu SUZUKI]　(リンク切れ)(2003)　[suzuki](suzuki)
-
+ 
 4. Machin's formula  ・・・・・・・・・・・・・・・・・・・ [machin](machin)
-5. Chudnovsky Binary Splitting Method ・・・・・・・・・・
+5. strange π approximation ・・・・・・・・・・・・・・・・ [pi_ln][pi_ln]
+6. Chudnovsky Binary Splitting Method ・・・・・・・・・・
 
     [円周率を1億桁計算しました！ － その試行錯誤の詳しい経緯と結果 －](https://itchyny.hatenablog.com/entry/20120304/1330870932)(2014)　[itchyny](itchyny)
     
@@ -15,7 +16,7 @@
     
     [Chudnovsky の公式を用いた円周率の計算用メモ](https://qiita.com/peria/items/c02ef9fc18fb0362fb89)
 
-6. Million Digit Pi Benchmark
+7. Million Digit Pi Benchmark
 
 [すずきひろのぶ氏の円周率１００万桁ソースコード](suzuki)を用いて各世代RaspberryPiの速度比較を行う。
 
