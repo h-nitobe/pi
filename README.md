@@ -26,6 +26,7 @@
 |ThinkPad E14-i3<br>(2021) |Core i3-1115G4@<br>3.00GHz|Debian(bullseye)<br>/WSL/Windows11|10.2.1|6.2.1|  2.135s|
 |Raspberry Pi 400<br>(2021)|ARM Cortex-A72<br>1.8GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.054s|
 |Raspberry Pi 4<br>Model B Rev 1.2<br>(2019)|ARM Cortex-A72<br>1.5GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|	4.875s|
+|VisionFive2<br>(2022)|StarFive JH7110<br>(U74 4 Core 1.5GHz)<br>RV64GC|Debian GNU/Linux trixie/sid|13.1.0|6.3.0| 8.896s|
 |Raspberry Pi 3<br>Model B Rev 1.2<br>(2016)|ARM Cortex-A53<br>1.2GHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|13.826s|
 |NanoPi NEO<br>(2016)|Allwinner H3<br>(Quad-core Cortex-A7)<br>1.2GHz|Ubuntu 16.04.7 LTS|5.4.0|6.2.1|21.383s|
 |Raspberry Pi 2<br>Model B Rev 1.1<br>(2015)|ARM Cortex-A7<br>900MHz|RaspberryPiOS<br>(Debian 11 (bullseye))|10.2.1|6.2.1|21.798s|
