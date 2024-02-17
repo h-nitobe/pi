@@ -43,4 +43,3 @@ DevTerm R-01
 RaspberryPi5
 ![RaspberryPi5.jpg](RaspberryPi5.jpg)
 
-
