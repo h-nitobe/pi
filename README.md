@@ -22,6 +22,7 @@
 
 |Hardware|Central<br>Processing<br>Unit|Operating<br>System|gcc|gmp|time|
 |---|---|---|---|---|---:|
+|ThinkPad X13 Gen41<br>(2024) |Core i5-1335U<br>1.30 GHz|Debian12(bookworm)<br>/WSL/Windows11|12.2.0|6.3.0|  0.550s|
 |ThinkPad P71<br>(2018) |Core i7-7820HQ<br>2.9GHz|Debian(stretch)<br>/WSL/Windows10|6.3.0|6.2.1|  0.993s|
 |HP EliteBook 630 G9<br>(2023) |Core i5-1235U<br>1.3GHz|Debian(bookworm)<br>/WSL/Windows11|12.2.0|6.2.1|  1.000s|
 |ThinkPad E14-i3<br>(2021) |Core i3-1115G4@<br>3.00GHz|Debian(bullseye)<br>/WSL/Windows11|10.2.1|6.2.1|  2.135s|
